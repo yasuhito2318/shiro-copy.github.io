@@ -31,7 +31,7 @@ header {
   min-width: 960px;
   height: 620px;
   text-align: center;
-  background-image: url(file:///C:/Users/%E5%8F%8B%E7%94%B0%E5%BA%B7%E4%BB%81/Pictures/Camera%20Roll/img.bg.header.png);
+  background-image: url(https://github.com/yasuhito2318/shiro-copy.github.io/blob/main/img.bg.header.png?raw=true);
   background-size: cover;
 }
 
@@ -295,7 +295,7 @@ header {
 .contact {
   min-width: 960px;
   height: 450px;
-  background-image: url(https://public-v2links.adobecc.com/5ad2e100-1381-4ec0-5e45-2ec7bb5f66a2/component?params=component_id%3Acce8984e-9294-4208-939a-20381cac6214&params=version%3A0&token=1615596046_da39a3ee_17d9145778f9296e44263bd735bbc32fd2dea393&api_key=CometServer1);
+  background-image: url(https://github.com/yasuhito2318/shiro-copy.github.io/blob/main/img.bg.contact.png?raw=true);
   background-size: cover;
   text-align: center;
 }
