@@ -330,118 +330,170 @@ footer p {
   padding-top: 12px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
+  .wrap {
+    overflow: hidden;
+  }
   .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    min-width: 0;
+  }
+  header {
+    min-width: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  header .header-left {
+    padding-left: 5%;
+    font-size: 10vw;
+  }
+  header .header-right {
+    padding-right: 5%;
+    font-size: 10vw;
+  }
+  .top h1 {
+    font-size: 30vw;
+  }
+  .top p {
+    font-size: 8vw;
   }
   .concept {
-    height: 1000px;
-    background: linear-gradient(180deg, white 0%, white 700px, #EDEDED 700px, #EDEDED 100%);
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(80%, white), color-stop(80%, #EDEDED), to(#EDEDED));
+    background: linear-gradient(180deg, white 0%, white 80%, #EDEDED 80%, #EDEDED 100%);
+  }
+  .concept img {
+    width: 90%;
+    height: 100%;
+    padding-bottom: 15vh;
   }
   .work {
-    height: 4300px;
+    min-width: 0;
+    width: 100%;
+    height: auto;
   }
-  .florist {
-    height: 2300px;
-    background: linear-gradient(180deg, #EDEDED 0%, #EDEDED 374px, #EDEDED 374px, #EDEDED 100%);
-  }
-  .info {
-    height: 1100px;
-  }
-  .contact {
-    height: 550px;
-  }
-  .member {
-    padding-top: 50px;
-    margin: 0 auto;
-    width: 90%;
-    float: none;
-  }
-  .member img {
-    height: 350px;
-    text-align: center;
-    display: inline-block;
-  }
-  .member h2 {
-    font-size: 40px;
-  }
-  .member p {
-    padding-bottom: 50px;
-    font-size: 30px;
-  }
-  .work-left {
+  .work .work-left {
     width: 80%;
     margin: 0 auto;
     float: none;
   }
-  .work-left img {
-    padding-top: 100px;
-  }
-  .work-left h2 {
-    font-size: 40px;
-  }
-  .work-left p {
-    font-size: 30px;
+  .work .work-left img {
+    padding-top: 50px;
     height: auto;
   }
-  .work-right {
+  .work .work-left h2 {
+    font-size: 10vw;
+  }
+  .work .work-left p {
+    font-size: 6vw;
+    height: auto;
+  }
+  .work .work-right {
     width: 80%;
     margin: 0 auto;
     float: none;
     padding-left: 0px;
   }
-  .work-right img {
-    padding-top: 100px;
-  }
-  .work-right h2 {
-    font-size: 40px;
-  }
-  .work-right p {
-    font-size: 30px;
+  .work .work-right img {
+    padding-top: 50px;
     height: auto;
   }
-  .info-img {
+  .work .work-right h2 {
+    font-size: 10vw;
+  }
+  .work .work-right p {
+    font-size: 6vw;
+    height: auto;
+  }
+  .florist {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    background: linear-gradient(180deg, #EDEDED 0%, #EDEDED 374px, #EDEDED 374px, #EDEDED 100%);
+  }
+  .florist .member {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 90%;
+    float: none;
+  }
+  .florist .member img {
+    height: auto;
+    text-align: center;
+    display: inline-block;
+  }
+  .florist .member h2 {
+    font-size: 10vw;
+  }
+  .florist .member p {
+    padding-bottom: 50px;
+    font-size: 6vw;
+  }
+  .florist .center-mem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .info {
+    min-width: 0;
+    width: 100%;
+    height: auto;
+  }
+  .info .info-img {
     float: none;
     width: 100%;
-    height: 300px;
+    height: auto;
   }
-  .details {
+  .info .details {
     float: none;
     padding: 0px;
   }
-  .details .detail {
+  .info .details .detail {
     width: 100%;
-    height: 100px;
+    height: 17vh;
+    padding-left: 0;
   }
-  .details .detail .name {
+  .info .details .detail .name {
     text-align: center;
-    width: 150px;
+    width: 15%;
+    padding-right: 3%;
   }
-  .details .detail .content {
-    padding-left: 30px;
+  .info .details .detail .content {
+    padding-left: 3%;
   }
-  .details p {
-    font-size: 30px;
+  .info .details p {
+    font-size: 5vw;
   }
-  .mobile {
+  .info .mobile {
     width: 90%;
     margin: 0 auto;
   }
-  .top h1 {
-    font-size: 140px;
-  }
-  .top p {
-    font-size: 30px;
+  .contact {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    padding-bottom: 50px;
   }
   .border {
-    font-size: 30px;
+    font-size: 6vw;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .heading {
-    font-size: 50px;
+    font-size: 12vw;
   }
   .btn {
     margin-top: 150px;
+    padding: 0;
+    font-size: 7vw;
+  }
+  footer {
+    min-width: 0;
+  }
+  footer p {
+    font-size: 4vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
